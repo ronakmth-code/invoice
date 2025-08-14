@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const Product = require("./models/product");
-const User = require("./models/User");
+const User = require("./models/user");
 const path = require("path");
 app.use(express.urlencoded({ extended: true })); // for form data
 app.use(express.json()); // for JSON requests (optional, but useful)
